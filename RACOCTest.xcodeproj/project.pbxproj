@@ -13,6 +13,8 @@
 		053F99D620B41FF3000B3532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053F99D520B41FF3000B3532 /* Assets.xcassets */; };
 		053F99D920B41FF3000B3532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053F99D720B41FF3000B3532 /* LaunchScreen.storyboard */; };
 		053F99DC20B41FF3000B3532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 053F99DB20B41FF3000B3532 /* main.m */; };
+		0547637620B4FD7C0064E0F4 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0547637520B4FD7C0064E0F4 /* SecViewController.m */; };
+		0547637920B542610064E0F4 /* MuticaseConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0547637820B542610064E0F4 /* MuticaseConnectionViewController.m */; };
 		B4013A5F7E08D8E4E95365EB /* libPods-RACOCTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E56BBC9F54066011DEFCB70 /* libPods-RACOCTest.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,10 @@
 		053F99D820B41FF3000B3532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		053F99DA20B41FF3000B3532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		053F99DB20B41FF3000B3532 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0547637420B4FD7C0064E0F4 /* SecViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		0547637520B4FD7C0064E0F4 /* SecViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
+		0547637720B542610064E0F4 /* MuticaseConnectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuticaseConnectionViewController.h; sourceTree = "<group>"; };
+		0547637820B542610064E0F4 /* MuticaseConnectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuticaseConnectionViewController.m; sourceTree = "<group>"; };
 		5E56BBC9F54066011DEFCB70 /* libPods-RACOCTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACOCTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36F49D34AABFE6FBE2D4142 /* Pods-RACOCTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACOCTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACOCTest/Pods-RACOCTest.debug.xcconfig"; sourceTree = "<group>"; };
 		C8470C0966897C27B8B70309 /* Pods-RACOCTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACOCTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACOCTest/Pods-RACOCTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +75,10 @@
 				053F99CD20B41FF3000B3532 /* AppDelegate.m */,
 				053F99CF20B41FF3000B3532 /* ViewController.h */,
 				053F99D020B41FF3000B3532 /* ViewController.m */,
+				0547637420B4FD7C0064E0F4 /* SecViewController.h */,
+				0547637520B4FD7C0064E0F4 /* SecViewController.m */,
+				0547637720B542610064E0F4 /* MuticaseConnectionViewController.h */,
+				0547637820B542610064E0F4 /* MuticaseConnectionViewController.m */,
 				053F99D220B41FF3000B3532 /* Main.storyboard */,
 				053F99D520B41FF3000B3532 /* Assets.xcassets */,
 				053F99D720B41FF3000B3532 /* LaunchScreen.storyboard */,
@@ -188,7 +198,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0547637620B4FD7C0064E0F4 /* SecViewController.m in Sources */,
 				053F99D120B41FF3000B3532 /* ViewController.m in Sources */,
+				0547637920B542610064E0F4 /* MuticaseConnectionViewController.m in Sources */,
 				053F99DC20B41FF3000B3532 /* main.m in Sources */,
 				053F99CE20B41FF3000B3532 /* AppDelegate.m in Sources */,
 			);

@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+//用户名
+@property (nonatomic, weak) IBOutlet UITextField *userNametf;
+//登录按钮
+@property (nonatomic, weak) IBOutlet UIButton *loginBtn;
 
 @end
 
